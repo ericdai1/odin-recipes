@@ -1,0 +1,39 @@
+.header-one {
+  color: rgb(144, 5, 5);
+  font-size: 42px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.link {
+  color: rgba(255, 0, 0, 0.6);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 28px;
+  font-weight: 800;
+  text-align: left;
+}
+
+img {
+  height: auto;
+  width: 500px;
+}
+
+.recipe-title {
+  font-size: 36px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: left;
+  color: black
+}
+
+.bolognese {
+  color: brown
+}
+
+.dumplings {
+  color: rgb(245, 168, 91);
+}
+
+.fried-rice {
+  color: rgb(245, 219, 75)
+}
