@@ -3,6 +3,12 @@
   font-size: 42px;
   text-align: center;
   font-weight: bold;
+  margin: 30px;
+  padding: 20px;
+  border: 20px dotted black;
+  height:50px;
+  width:800px;
+  /* box-sizing: border-box; */
 }
 
 .link {
@@ -10,7 +16,10 @@
   font-family: 'Times New Roman', Times, serif;
   font-size: 28px;
   font-weight: 800;
-  text-align: left;
+  text-align: center;
+  margin: 10px;
+  border: 0px solid white;
+  display: block;
 }
 
 img {
