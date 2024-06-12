@@ -1,25 +1,32 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box
+}
+
 .header-one {
   color: rgb(144, 5, 5);
   font-size: 42px;
   text-align: center;
   font-weight: bold;
-  margin: 30px;
-  padding: 20px;
+  margin: 30px 20px; /* top-bottom, right-left */
+  padding: 20px 15px 15px 20px; /* top right bottom left */
   border: 20px dotted black;
-  height:50px;
-  width:800px;
+  height:130px;
+  width:900px;
   /* box-sizing: border-box; */
 }
 
-.link {
+.recipes .link {
   color: rgba(255, 0, 0, 0.6);
   font-family: 'Times New Roman', Times, serif;
-  font-size: 28px;
+  font-size: 20px;
   font-weight: 800;
   text-align: center;
-  margin: 10px;
-  border: 0px solid white;
-  display: block;
+  margin: 30px 50px;
+  padding: 15px 25px;
+  border: 5px solid rgba(0, 0, 0, 0.386);
+  display: inline-block;
 }
 
 img {
@@ -32,7 +39,7 @@ img {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   text-align: left;
-  color: black
+  color: rgba(74, 42, 74, 0.403)
 }
 
 .bolognese {
@@ -45,4 +52,10 @@ img {
 
 .fried-rice {
   color: rgb(245, 219, 75)
+}
+
+.thick {
+  background-color: rgba(160,40,40, .3);
+  border: 10px solid brown;
+  font-size: 24px;
 }
